@@ -1,0 +1,59 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+logs/
+*.out
+
+# Dependencias y paquetes
+node_modules/
+vendor/
+*.egg-info/
+dist/
+build/
+
+# Archivos compilados
+*.class
+*.jar
+*.war
+*.pyc
+*.pyo
+__pycache__/
+*.o
+*.so
+
+# Configuración local
+.env
+.env.local
+.env.*.local
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.user
+*.db
+*.sqlite
+*.sqlite3
+
+# Contenedores y entornos
+.env.docker
+docker-compose.override.yml
+*.pid
+*.seed
+tmp/
+temp/
+
+# Sistemas de control de versiones
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Otros
+*.bak
+*.swp
+*.sublime-project
+*.sublime-workspace
